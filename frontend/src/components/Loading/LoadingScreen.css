@@ -1,0 +1,42 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #eef5ff;
+  padding: 40px 20px;
+}
+
+.loading-container h1 {
+  color: #1565c0;
+  margin-bottom: 16px;
+}
+
+.loading-container h3 {
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.loading-file {
+  color: #888;
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.loading-progress {
+  width: min(500px, 90vw);
+  height: 25px;
+  margin-top: 20px;
+}
+
+.loading-container h2 {
+  color: #1976d2;
+  margin-top: 16px;
+}
+
+.loading-retry-hint {
+  margin-top: 12px;
+  color: #e65100;
+  font-size: 13px;
+}
